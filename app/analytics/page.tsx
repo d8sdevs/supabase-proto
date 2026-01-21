@@ -1,4 +1,4 @@
-export default function SearchPage() {
+export default function AnalyticsPage() {
   return (
     <div style={{
       padding: '20px',
@@ -11,7 +11,7 @@ export default function SearchPage() {
         marginBottom: '20px',
         color: '#333'
       }}>
-        검색
+        분석
       </h1>
       <div style={{
         backgroundColor: 'white',
@@ -23,7 +23,7 @@ export default function SearchPage() {
           color: '#666',
           lineHeight: '1.6'
         }}>
-          검색 페이지입니다.
+          분석 페이지입니다.
         </p>
       </div>
     </div>

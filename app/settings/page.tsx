@@ -1,4 +1,4 @@
-export default function ProfilePage() {
+export default function SettingsPage() {
   return (
     <div style={{
       padding: '20px',
@@ -11,7 +11,7 @@ export default function ProfilePage() {
         marginBottom: '20px',
         color: '#333'
       }}>
-        프로필
+        설정
       </h1>
       <div style={{
         backgroundColor: 'white',
@@ -23,10 +23,9 @@ export default function ProfilePage() {
           color: '#666',
           lineHeight: '1.6'
         }}>
-          프로필 페이지입니다.
+          설정 페이지입니다.
         </p>
       </div>
     </div>
   )
 }
-

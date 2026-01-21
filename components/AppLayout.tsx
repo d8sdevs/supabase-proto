@@ -81,7 +81,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
             flex: 1,
           }}
         >
-          YAM App
+          얌,YAM
         </h1>
       </header>
 

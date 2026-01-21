@@ -12,9 +12,9 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: '홈', path: '/', icon: '🏠' },
-  { label: '검색', path: '/search', icon: '🔍' },
-  { label: '알림', path: '/notifications', icon: '🔔' },
-  { label: '프로필', path: '/profile', icon: '👤' },
+  { label: '일정', path: '/schedule', icon: '📅' },
+  { label: '분석', path: '/analytics', icon: '📊' },
+  { label: '설정', path: '/settings', icon: '⚙️' },
 ]
 
 interface SidebarProps {
