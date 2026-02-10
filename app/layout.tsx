@@ -3,8 +3,8 @@ import './globals.css'
 import AppLayout from '@/components/AppLayout'
 
 export const metadata: Metadata = {
-  title: 'YAM App',
-  description: 'YAM Application',
+  title: '얌YAM',
+  description: 'YAM',
 }
 
 export default function RootLayout({

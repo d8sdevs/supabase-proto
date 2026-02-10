@@ -6,9 +6,9 @@ Next.js와 React를 활용한 모바일 앱 스타일의 웹 애플리케이션�
 
 - 하단 네비게이션 바 (4개 메뉴)
   - 홈
-  - 검색
-  - 알림
-  - 프로필
+  - 일정
+  - 분석
+  - 설정
 - Supabase 연동
   - 인증 (회원가입, 로그인, 로그아웃)
   - 데이터베이스 쿼리
@@ -83,9 +83,9 @@ fe-yam/
 │   ├── layout.tsx          # 루트 레이아웃
 │   ├── page.tsx            # 홈 페이지 (Supabase 예제 포함)
 │   ├── globals.css         # 전역 스타일
-│   ├── search/             # 검색 페이지
-│   ├── notifications/      # 알림 페이지
-│   └── profile/            # 프로필 페이지
+│   ├── schedule/           # 일정 페이지
+│   ├── analytics/          # 분석 페이지
+│   └── settings/           # 설정 페이지
 ├── components/
 │   ├── BottomNavigation.tsx # 하단 네비게이션 바
 │   ├── AuthExample.tsx      # 인증 예제 컴포넌트

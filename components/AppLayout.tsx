@@ -22,6 +22,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
     <div
       style={{
         minHeight: '100vh',
+        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -81,7 +82,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
             flex: 1,
           }}
         >
-          YAM App
+          얌,YAM
         </h1>
       </header>
 
@@ -94,6 +95,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
           flex: 1,
           width: '100%',
           maxWidth: '100%',
+          minHeight: 0,
+          overflow: 'auto',
         }}
       >
         {children}
